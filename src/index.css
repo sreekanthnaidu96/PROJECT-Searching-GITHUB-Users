@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: rgba(216, 191, 216, 0.24);
+}
+.input {
+  width: 55rem;
+  height: 2rem;
+  margin: 1.5rem;
+  margin-left: 10rem;
+}
+.buttons {
+  padding: 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  background-color: darkgrey;
+  color: wheat;
+  margin: 1rem;
+  width: 5rem;
+  align-self: center;
+}
+.buttons:hover {
+  background-color: wheat;
+  color: darkgrey;
+}
+a:link {
+  color: rgb(255, 0, 212);
+}
+a:visited {
+  color: darkgoldenrod;
+}
+a:hover {
+  color: darkred;
+}
+a:active {
+  color: dimgrey;
+}
+.name {
+  color: chocolate;
+  margin-left: 1rem;
+}
+.url {
+  color: cornflowerblue;
+  margin-left: 0.5rem;
+}
+.resultuser {
+  width: 30rem;
+  background-color: white;
+  margin: auto;
+}
+.initialdata {
+  border-radius: 12px;
+  border: 1px solid red;
+  background-color: rgba(233, 150, 122, 0.507);
+  color: white;
+  width: 24rem;
+  text-transform: capitalize;
+  margin: 2rem;
+  margin-left: 5rem;
+}
+.userimage {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+.Appstyles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.loading {
+  margin: auto;
+}
+.errorone {
+  margin: auto;
+}
+@media (max-width: 416px) {
+  .userimage {
+    margin-left: 1.2rem;
+  }
+}
+@media (max-width: 737px) {
+  .input {
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 505px) {
+  .initialdata {
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
